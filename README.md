@@ -10,7 +10,8 @@ class="pkgdown-release"><img
 src="https://www.r-pkg.org/badges/version/ldcm" alt="CRAN Status" /></a>
 <!-- badges: end -->
 
-**ldcm** is designed to $f(x)$… Learn more in `vignette("ldcm")`.
+The R package **ldcm** provides $f(x)$… Learn more in
+`vignette("ldcm")`.
 
 ## Installation
 
