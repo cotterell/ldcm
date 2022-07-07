@@ -9,6 +9,7 @@
 class="pkgdown-release"><img
 src="https://www.r-pkg.org/badges/version/ldcm" alt="CRAN Status" /></a>
 [![R-CMD-check](https://github.com/cotterell/ldcm/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/cotterell/ldcm/actions/workflows/check-standard.yaml)
+[![pkgdown](https://github.com/cotterell/ldcm/actions/workflows/pkgdown.yaml/badge.svg?branch=main)](https://github.com/cotterell/ldcm/actions/workflows/pkgdown.yaml)
 <!-- badges: end -->
 
 The R package **ldcm** provides a multilevel extension to the
