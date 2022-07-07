@@ -21,7 +21,9 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/cotterell/ldcm/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/cotterell/ldcm/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
-The R package **ldcm** provides $\sum f(x)$... Learn more in `vignette("ldcm")`.
+The R package **ldcm** provides a multilevel extension to the longitudinal
+diagnostic classification model (DCM) to help researchers take into account
+contextual effects that can impact the fidelity and effectiveness of an educational intervention. Learn more in `vignette("ldcm")`.
 
 ## Installation
 

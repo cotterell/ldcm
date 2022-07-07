@@ -11,7 +11,10 @@ src="https://www.r-pkg.org/badges/version/ldcm" alt="CRAN Status" /></a>
 [![R-CMD-check](https://github.com/cotterell/ldcm/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/cotterell/ldcm/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
-The R package **ldcm** provides $f(x)$… Learn more in
+The R package **ldcm** provides a multilevel extension to the
+longitudinal diagnostic classification model (DCM) to help researchers
+take into account contextual effects that can impact the fidelity and
+effectiveness of an educational intervention. Learn more in
 `vignette("ldcm")`.
 
 ## Installation
