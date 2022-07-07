@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Longitudinal Diagnostic Classification Models <img src="man/figures/logo.png" alt="LDCM logo" align="right" width="128" />
+# Longitudinal Diagnostic Classification Models <img src="man/figures/logo.png" alt="LDCM logo" align="right" width="100" />
 
 <!-- badges: start -->
 [![CRAN Status](https://www.r-pkg.org/badges/version/ldcm)](https://cran.r-project.org/package=ldcm){.pkgdown-release}

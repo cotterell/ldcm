@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Longitudinal Diagnostic Classification Models <img src="man/figures/logo.png" alt="LDCM logo" align="right" width="128" />
+# Longitudinal Diagnostic Classification Models <img src="man/figures/logo.png" alt="LDCM logo" align="right" width="100" />
 
 <!-- badges: start -->
 
