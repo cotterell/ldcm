@@ -1,0 +1,43 @@
+---
+output: 
+  github_document:
+    md_extensions: -tex_math_dollars-tex_math_single_backslash+raw_html
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/"
+)
+```
+
+# Longitudinal Diagnostic Classification Models <img src="man/figures/logo.png" alt="LDCM logo" align="right" width="128" />
+
+<!-- badges: start -->
+[![CRAN Status](https://www.r-pkg.org/badges/version/ldcm)](https://cran.r-project.org/package=ldcm){.pkgdown-release}
+<!-- badges: end -->
+
+**ldcm** is designed to $\sum f(x)$... Learn more in `vignette("ldcm")`.
+
+## Installation
+
+::: .pkgdown-release
+```{r, eval = FALSE}
+# Install released version from CRAN
+install.packages("ldcm")
+```
+:::
+
+::: .pkgdown-devel
+```{r, eval = FALSE}
+# Install development version from GitHub
+devtools::install_github("cotterell/ldcm")
+```
+:::

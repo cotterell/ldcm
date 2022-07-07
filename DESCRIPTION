@@ -1,0 +1,63 @@
+Package: ldcm
+Type: Package
+Title: Longitudinal Diagnostic Classification Models
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Matthew", "Madison", 
+      email = "mjmadison@uga.edu", 
+      role = c("aut", "cph")
+    ),
+    person(
+      "Minjeong", "Jeon", 
+      email = "mjjeon@ucla.edu", 
+      role = c("aut", "cph")
+    ),
+    person(
+      "Michael E.", "Cotterell",
+      email = "mepcott@uga.edu", 
+      role = c("aut", "cre", "cph"),
+      comment = c(ORCID = "0000-0002-4302-0891")
+    ),
+    person(
+      "University of Georgia", 
+      role = c("cph"),
+      comment = c(
+        url = "https://www.uga.edu/"
+      )
+    ),
+    person(
+      "U.S. Department of Education Institute of Education Sciences",
+      role = c("fnd"),
+      comment = c(
+        url = "https://ies.ed.gov/funding/grantsearch/details.asp?ID=5718"
+      )
+    )
+  )
+Description: Diagnostic classification models (DCMs) can provide useful 
+    information about students' strengths and weaknesses in an academic domain 
+    beyond the norm-referenced or percentile results typically achieved through 
+    item response theory. DCMs, however, need to be able to accommodate the 
+    multilevel framework in which most education takes place, or they run the 
+    risk of providing substantially inaccurate results. The purpose of this 
+    project is to develop and make accessible to applied researchers a 
+    multilevel extension to the longitudinal diagnostic classification model 
+    (DCM) to help researchers take into account contextual effects that can 
+    impact the fidelity and effectiveness of an educational intervention.
+License: MIT + file LICENSE
+URL: https://cotterell.github.io/ldcm, https://github.com/cotterell/ldcm
+BugReports: https://github.com/cotterell/ldcm/issues
+Encoding: UTF-8
+Language: en-US
+Depends: 
+    R (>= 4.2)
+Suggests:
+    commonmark,
+    knitr,
+    rmarkdown
+VignetteBuilder: 
+    knitr
+ByteCompile: yes    
+LazyData: true
+Roxygen: list(markdown = TRUE, load = "installed")
+RoxygenNote: 7.2.0

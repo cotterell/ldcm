@@ -1,0 +1,24 @@
+url: ~
+template:
+  bootstrap: 5
+  includes:
+    in_header: >
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+authors:
+  footer:
+    roles: [cph]
+    text: "Copyright &copy;"
+  sidebar:
+    roles: [aut]
+  before: "This package is proudly brought to you by:"
+  Matthew Madison:
+    href: https://people.coe.uga.edu/matthew-madison/
+  Minjeong Jeon:
+    href: https://sites.google.com/site/arbormj
+  Michael E. Cotterell:
+    href: https://michaelcotterell.com/
+  University of Georgia:
+    href: https://www.uga.edu/
+
