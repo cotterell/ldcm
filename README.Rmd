@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![CRAN Status](https://www.r-pkg.org/badges/version/ldcm)](https://cran.r-project.org/package=ldcm){.pkgdown-release}
+[![R-CMD-check](https://github.com/cotterell/ldcm/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/cotterell/ldcm/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
 The R package **ldcm** provides $\sum f(x)$... Learn more in `vignette("ldcm")`.

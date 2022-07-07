@@ -8,6 +8,7 @@
 <a href="https://cran.r-project.org/package=ldcm"
 class="pkgdown-release"><img
 src="https://www.r-pkg.org/badges/version/ldcm" alt="CRAN Status" /></a>
+[![R-CMD-check](https://github.com/cotterell/ldcm/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/cotterell/ldcm/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
 The R package **ldcm** provides $f(x)$… Learn more in
