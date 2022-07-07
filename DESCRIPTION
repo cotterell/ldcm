@@ -1,7 +1,7 @@
 Package: ldcm
 Type: Package
 Title: Longitudinal Diagnostic Classification Models
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: c(
     person(
       "Matthew", "Madison", 
@@ -54,10 +54,12 @@ Depends:
 Suggests:
     commonmark,
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: 
     knitr
 ByteCompile: yes    
 LazyData: true
 Roxygen: list(markdown = TRUE, load = "installed")
 RoxygenNote: 7.2.0
+Config/testthat/edition: 3
