@@ -1,0 +1,88 @@
+{{#navbar}}
+<nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top ldcm-navbar">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-flex align-items-baseline">
+      <a class="navbar-brand" href="{{#site}}{{root}}{{/site}}index.html">
+        <img height="32" src="{{#site}}{{root}}{{/site}}img/logo.svg">
+      </a>
+    </div>
+    <button class="navbar-toggler d-flex d-md-none order-3 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle table of contents">
+      <i aria-hidden="true" class="bi bi-three-dots"></i>
+    </button>
+
+    <div class="navbar-offcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ldcm <span class="text-muted">R package</span></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        {{#left}}
+        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="{{#site}}{{root}}{{/site}}index.html">Home</a>
+          </li>
+        {{{.}}}
+        </ul>
+        {{/left}}
+
+        {{#right}}
+        <hr class="d-md-none text-black-50">
+        <ul class="navbar-nav flex-row flex-wrap ms-md-auto gap-2">
+          <li class="nav-item col-6 col-md-auto">
+            <a href="" class="nav-link py-2 px-0 px-lg-2">
+              <i class="bi bi-search" title="Search"></i>
+              <small class="d-lg-none d-md-none ms-2">Search</small>
+            </a>
+          </li>
+          <li class="nav-item col-6 col-md-auto">
+            <a href="" class="nav-link py-2 px-0 px-lg-2" title="Github">
+              <i class="bi bi-github"></i>
+              <small class="d-lg-none d-md-none ms-2">GitHub</small>
+            </a>
+          </li>
+          <!--
+          {{{.}}}
+          -->
+        </ul>
+        <hr class="d-md-none text-black-50">
+        <ul class="navbar-nav flex-wrap ms-md-auto">
+          <li class="nav-item py-1 col-12 col-md-auto">
+            <div class="vr d-none d-md-flex h-100 mx-md-3 text-white" href="#"></div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="btn btn-link nav-link px-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static" href="#">
+              <span class="d-md-none">ldcm</span> <span id="ldcm-active-version" class="ldcm-version{{#development}} ldcm-version-dev{{/development}}" data-ldcm-version="{{#package}}{{version}}{{/package}}">{{#package}}{{version}}{{/package}}</span> {{#development}}<span class="badge rounded-pill text-bg-info">dev</span>{{/development}}
+            </a>
+            <ul id="ldcm-versions-list" data-ldcm-version="{{#package}}{{version}}{{/package}}" class="dropdown-menu dropdown-menu-end">
+              <li><h6 class="dropdown-header">Latest Release Version</h6></li>
+              <li class="ldcm-release-version-placeholder">
+                <div class="dropdown-item disabled" href="#">
+                  <div class="spinner-border spinner-border-sm" role="status"></div>
+                  <span class="ms-2">Loading...</span>
+                </div>
+              </li>
+              <li class="ldcm-release-version-divider"><hr class="dropdown-divider"></li>
+              <li><h6 class="dropdown-header">Latest Developer Version</h6></li>
+              <li class="ldcm-dev-version-placeholder">
+                <div class="dropdown-item disabled" href="#">
+                  <div class="spinner-border spinner-border-sm" role="status"></div>
+                  <span class="ms-2">Loading...</span>
+                </div>
+              </li>
+              <li class="ldcm-dev-version-divider"><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="https://cran.r-project.org/package=ldcm">CRAN releases</a></li>
+              <li><a class="dropdown-item" href="https://github.com/cotterell/ldcm/releases">GitHub releases</a></li>
+            </ul>
+          </li>
+        </ul>
+        {{/right}}
+
+      </div>
+
+    </div>
+  </div>
+</nav>
+{{/navbar}}

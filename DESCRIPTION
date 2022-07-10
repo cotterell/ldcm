@@ -1,7 +1,7 @@
 Package: ldcm
 Type: Package
 Title: Longitudinal Diagnostic Classification Models
-Version: 0.1.0.9000
+Version: 0.0.0.9000
 Authors@R: c(
     person(
       "Matthew", "Madison", 
@@ -23,14 +23,20 @@ Authors@R: c(
       "University of Georgia", 
       role = c("cph"),
       comment = c(
-        url = "https://www.uga.edu/"
+        "The content and opinions expressed in this material do not necessarily 
+        reflect the views of nor are they endorsed by the University of Georgia 
+        or the University System of Georgia."
       )
     ),
     person(
       "U.S. Department of Education Institute of Education Sciences",
       role = c("fnd"),
       comment = c(
-        url = "https://ies.ed.gov/funding/grantsearch/details.asp?ID=5718"
+        "This work is supported by the U.S. Department of Education Institute of
+        Education Sciences under IES Award Number R305D220020. Any opinions, 
+        findings, conclusions or recommendations expressed in this material are 
+        those of the author(s) and do not necessarily reflect those of the 
+        Institute of Educational Sciences or the U.S. Department of Education."
       )
     )
   )
@@ -58,8 +64,7 @@ Suggests:
     testthat (>= 3.0.0)
 VignetteBuilder: 
     knitr
-ByteCompile: yes    
-LazyData: true
+ByteCompile: yes
 Roxygen: list(markdown = TRUE, load = "installed")
 RoxygenNote: 7.2.0
 Config/testthat/edition: 3
