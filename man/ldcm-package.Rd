@@ -34,8 +34,8 @@ Authors:
 
 Other contributors:
 \itemize{
-  \item University of Georgia (https://www.uga.edu/) [copyright holder]
-  \item U.S. Department of Education Institute of Education Sciences (https://ies.ed.gov/funding/grantsearch/details.asp?ID=5718) [funder]
+  \item University of Georgia (The content and opinions expressed in this material do not necessarily reflect the views of nor are they endorsed by the University of Georgia or the University System of Georgia.) [copyright holder]
+  \item U.S. Department of Education Institute of Education Sciences (This work is supported by the U.S. Department of Education Institute of Education Sciences under IES Award Number R305D220020. Any opinions, findings, conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect those of the Institute of Educational Sciences or the U.S. Department of Education.) [funder]
 }
 
 }

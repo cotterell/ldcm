@@ -29,7 +29,7 @@ Authors@R: c(
       )
     ),
     person(
-      "U.S. Department of Education Institute of Education Sciences",
+      "Institute of Education Sciences",
       role = c("fnd"),
       comment = c(
         "This work is supported by the U.S. Department of Education Institute of
@@ -51,7 +51,7 @@ Description: Diagnostic classification models (DCMs) can provide useful
     (DCM) to help researchers take into account contextual effects that can 
     impact the fidelity and effectiveness of an educational intervention.
 License: MIT + file LICENSE
-URL: https://cotterell.github.io/ldcm, https://github.com/cotterell/ldcm
+URL: https://github.com/cotterell/ldcm
 BugReports: https://github.com/cotterell/ldcm/issues
 Encoding: UTF-8
 Language: en-US
